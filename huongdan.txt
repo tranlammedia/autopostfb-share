@@ -1,0 +1,26 @@
+Cám ơn bạn đã quan tâm đến tool auto post fb
+Trong quá trình sử dụng, nếu cần hỗ trợ, có thể liên hện mình qua:
+- zalo 0898482245
+- lam.tranledien@gmail.com
+- https://www.facebook.com/tranledienlam
+
+// Giới thiệu cách thức hoạt động của tool
+Gồm 3 phần:
+- Thành phần 1: danh sách các token của page/acc
+- Thành phần 2: danh sách contents
+- Thành phần 3: danh sách mục tiêu group để post
+
+Tool lấy random 1 group tại TP3, và kiểm tra token có tồn tại trong TP1 không.
+Đồng thời, random 1 content tại TP2
+Cuối cùng, sẽ gọi api facebook, post nội dung vào group. Và sau đó sẽ lặp lại
+
+// Set up
+Bạn vào thư mục config chỉnh sửa lại 4 file trong đó theo yêu cầu.
+- config.js: set up thời gian post
+- contentsData.js, pageToGroupsData.js, tokensData.js: nơi lưu trữ data
+
+Tại mỗi file, mình đã note hướng dẫn cách cập nhật file
+
+//Lưu ý:
+- khi chỉnh sửa file, chú ý dấu (,) đầy đủ theo mẫu
+- khoảng thời gian giữa 2 bài post của cùng 1 token (page) cashc nhau ít nhất 10p

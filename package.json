@@ -1,5 +1,5 @@
 {
-  "name": "accesstrade-serverfetchcampaigns",
+  "name": "autopostfb-share",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -10,9 +10,6 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.18.2",
-    "json-server": "^0.17.1",
-    "mongoose": "^6.8.0",
-    "node-fetch": "^2.6.7",
     "nodemon": "^2.0.20"
   }
 }
