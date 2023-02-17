@@ -1,0 +1,60 @@
+B1: Tạo ứng dụng fb
+https://developers.facebook.com/
+
+Cập nhật "Thông tin cơ bản"
+- URL (link bất kì)
+- chọn hạng mục
+
+Bật chế độ ứng dụng phát triển
+nếu không bật, sau này đăng bài, chỉ 1 mình mình thấy
+
+thêm phương thức đăng nhập
+https://example.com/ -> url
+lấy quyền public_profile
+
+-----
+B2: Lấy quyền token page, có thể chọn nhiều page
+https://developers.facebook.com/tools/explorer/
+
+-----
+B3: Cấp quyền cho ứng dụng và test quyền
+
+Lấy đủ các quyền này:
+groups_show_list
+pages_show_list
+publish_to_groups
+pages_read_engagement
+pages_manage_metadata
+pages_read_user_content
+pages_manage_posts
+pages_manage_engagement
+
+https://developers.facebook.com/tools/debug/accesstoken/
+
+---
+B4: lấy quyền vĩnh viễn page
+
+Cài đặt postman https://www.postman.com/downloads/
+
+- Lấy code
+https://www.facebook.com/v15.0/dialog/oauth?redirect_uri=https://example.com/
+&auth_type=rerequest
+&scope=public_profile
+&client_id=...
+
+- Lấy token cá nhân
+https://graph.facebook.com/v15.0/oauth/access_token?redirect_uri=https://example.com/
+&code=...
+&client_id=... 
+&client_secret=... 
+
+- Test token 
+https://graph.facebook.com/me?fields=id,name&access_token=...
+
+- Lấy token page
+https://graph.facebook.com/me/accounts?access_token=...
+
+- post thử trên postman
+https://graph.facebook.com/me/feed?message=Hello Api!
+&link=https://www.youtube.com/watch?v=q9poVNdkf68
+&access_token=...
