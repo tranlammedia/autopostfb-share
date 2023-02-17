@@ -1,0 +1,44 @@
+Máy chưa có thì cài này vào trước
+Cài môi trường
+https://git-scm.com/
+Nếu cài không được, bạn tìm hiểu gg nhé
+
+Chuẩn bị: đăng ký tài khoản
+- github.com -> nơi chứa source code
+- render.com -> nơi chạy server
+----
+B1: Đẩy source lên github
+
+Mở vscode lên, mở terminal
+lần lượt gõ các lệnh sau, theo hướng dẫn của github
+
+git init
+git add .
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://....
+git push -u origin main
+----
+B2: đẩy code lên render
+click dấu + -> web server
+connect github
+
+chọn source cần đẩy lên server
+Xong chỉ cần đợi 1 chút, server sẽ chạy
+
+----
+B3: Dùng uptimerobot.com đánh thức server
+
+Tại render, server hoạt động tầm 20-30p sẽ sleep.
+Bây giờ cần dùng 1 bên, để đánh thức server liên tục
+
+Bonus: cách post bài tránh vi phạm và chết token
+
+- tối đa 100 bài/page/ngày
+- tối đa 1 bài/group/ngày
+- thời gian gọi cùng 1 token, cách ít nhất 10 phút. Tức ít nhất 10 phút/post/token
+- cần chuẩn bị trước ít nhất 20 contents
+
+Nếu có thắc mắc gì, có thể liên hệ mình theo thoogn tin trong tool
+
+Chúc các bạn thành công
