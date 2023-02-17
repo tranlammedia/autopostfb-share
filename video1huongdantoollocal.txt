@@ -1,0 +1,34 @@
+TOOL  AUTOPOSTFB
+
+B1: cài môi trường
+
+- cài nodejs https://nodejs.org/en/
+- cài vscode https://code.visualstudio.com/download
+
+B2: Tải source tool về
+https://github.com/tranlammedia/autopostfb-share
+
+B3: Chỉnh sửa nội dung 4 file trong thư mục config
+
+- tokensData .js
+EAAKc...yQLIEN5
+EAAKcMO...DcVBRFaYh
+Hướng dẫn lấy token trong video 2
+
+- pageToGroupsData.js
+from: tên page trùng với tên page đặt bên token
+nó chính là key xác định page nào sẽ post
+
+- contentsData.js
+Nơi chứa nội dung post
+
+- config.js
+set thời gian post
+
+sau khi set xong, ta chạy lệnh
+B4: chạy lệnh cmd
+Bắt đầu run, chọn Terminal, -> new
+gõ npm start
+
+thoát nhấn ctrl + c
+ok Vậy là ta đã có tool auto chất lượng. nội dung mình sẽ để dưới mô tả. Cám ơn các bạn
