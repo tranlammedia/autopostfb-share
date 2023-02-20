@@ -1,3 +1,7 @@
+Video 2: https://www.youtube.com/watch?v=ZA5fNUtSCCk
+
+HƯỚNG DẪN LẤY TOKEN
+
 B1: Tạo ứng dụng fb
 https://developers.facebook.com/
 
