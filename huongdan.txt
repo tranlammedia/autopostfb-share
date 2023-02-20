@@ -8,7 +8,9 @@ Trong quá trình sử dụng, nếu cần hỗ trợ, có thể liên hện mì
 TPbank - Chi Nhánh Cộng Hòa, TP.HCM
 00468831001
 Trần Lê Điền Lâm
-Code QR -> https://i.pinimg.com/originals/aa/21/9b/aa219b80db7ee92975d57a02d1b5b76c.png
+
+Code QR
+https://i.pinimg.com/originals/aa/21/9b/aa219b80db7ee92975d57a02d1b5b76c.png
 -----------
 // Giới thiệu cách thức hoạt động của tool
 Gồm 3 phần:
