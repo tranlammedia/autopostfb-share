@@ -10,8 +10,10 @@ TPbank - Chi Nhánh Cộng Hòa, TP.HCM
 00468831001
 Trần Lê Điền Lâm
 -
-Code QR
+QR TPbank
 https://i.pinimg.com/originals/aa/21/9b/aa219b80db7ee92975d57a02d1b5b76c.png
+QR momo
+https://i.pinimg.com/564x/af/80/30/af8030191c2fb170ae8e25be7d883b37.jpg
 -----------
 // Giới thiệu cách thức hoạt động của tool
 Gồm 3 phần:
